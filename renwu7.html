@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E族之家</title>
+	<meta charset="utf-8"/>
+	<style>
+	   *{
+	   	margin:0px;
+	   	padding: 0px;
+	   }
+	   .top{
+	   	height:31px;
+	   	background-color: rgb(244 244 244);
+	   }
+	   .top-1{
+	   	float: left;
+	   	font-size: 12px;
+	   	line-height: 31px;
+	   }
+	   .top-2{
+	   	float: right;
+	   	font-size: 12px;
+	   	line-height: 31px;
+	   }
+	   .leader{
+	   	height:160px;
+	   	border-bottom:3px rgb(224 3 4) solid ;
+	   	background-color: #fff;
+	   }
+	   .leader-1{
+	   	height: 120px;
+	   }
+	   .leader-11{
+	   	float: left;
+	   }
+	   .leader-12{
+	   	float:left;
+	   	margin:35px 0 0 196px;
+	   	border:3px solid #838338;
+	   	border-color:rgb(248 56 56);
+	   }
+	   #inp1{
+	   	width:386px;
+	   	height:40px;
+	   	border:none;
+	   	padding-left: 18px;
+	   	padding-top: 1px;
+	   	font-size:13px;
+	   	color: rgb(192 192 192);
+	   }
+	   #inp2{
+	   	float:right;
+	   	width: 92px;
+	   	height:41px;
+	   	border:3px solid rgb(248 56 56);
+	   	background-color: rgb(248 56 56);
+	   	color:#fff;
+	   	font-size:18px;
+	   	margin-left: -8px;
+	   }
+	   .leader-13{
+	   	float:right;
+	   	background-color: rgb(245 245 245);
+	   	position: relative;
+	   	top:40px;
+	   }
+	   .leader-13 ul li{
+	   	list-style: none;
+	   	border:1px rgb(227 227 227) solid;
+	   }
+	   .leader-2{
+	   	display: line-block;
+	   	width: 1200px;
+	   	height: 34px;
+	   }
+	   .leader-2 ul{
+	   	list-style: none;
+	   }
+	   .leader-2 ul li{
+       float:left;
+       width:96px;
+       height:40px;
+       line-height: 33px;
+       text-align: center;
+       margin-right: 47px;
+       margin-bottom: 3px;
+       font-size: 16px;
+       }
+       .leader-2 ul li a{
+       	border-radius: 3px;
+       	color:#000;
+       	text-decoration: none;
+       }
+       .leader-2 ul li a:hover{
+       	background-color: #fd0304;
+       	color:#fff;
+       	padding:8px 14px;
+       	background-color: #fd0304;
+       }
+       .rap{
+       	background-color: rgb(251 251 251);
+       	height: 66px;
+       }
+       .rap p{
+       	line-height: 66px;
+       	font-size: 14px;
+       }
+       .all{
+       	background-color: rgb(251 251 251);
+       	height:584px;
+       }
+       .left-1{
+        position:absolute;
+       	height: 42px;
+       	width: 215px;
+       	background-color: rgb(255 255 255);
+       }
+       .left-1 p{
+       	position: relative;
+       	left: 70px;
+       	top:-22px;
+       	line-height: 42px;
+       }
+       .left-1 img{
+       	position:relative;
+       	left:40px;
+       	top:12px;
+       }
+       .left-2{
+       	position: relative;
+       	top:50px;
+       	width:215px;
+       	height:532px;
+        background-color: rgb(255 255 255);
+       }
+       .left-2 p{
+       	position:relative;
+       	left:60px;
+       	top:15px;
+       }
+       #pp{
+       	color:rgb(255 44 24);
+       }
+       .right{
+       	position:relative;
+       	left:226px;
+       	top:-532px;
+       	height:584px;
+       	width: 973px;
+       	background-color: rgb(255 255 255);
+       }
+       .right ul li{
+       	 margin-left:17px;
+       	 margin-top:19px;
+       	 float: left;
+       	 list-style: none;
+       	 border:1px rgb(219 219 219) solid;
+       	 width:220px;
+       	 height: 252px;
+       }
+       #x{
+       	margin:34px 58px;
+       }
+       .xx{
+       	color:#a3a3a3;
+       	margin:-27px 50px 41px 56px;
+       }
+       .xxx{
+       	margin:-38px 85px 20px 85px;
+
+       }
+       #y{
+       	margin:35px 40px;
+       }
+       #z{
+       	margin:13px 85px;
+       }
+       .zz{
+       	color:#a3a3a3;
+       	margin:-1px 50px 41px 50px;
+       }
+       .zzz{
+       	margin:-35px 85px 20px 85px;
+       }
+       #h{
+       	margin:41px 37px;
+       }
+       .hh{
+        color:#a3a3a3;
+        margin:-58px 50px 40px 50px;
+       }
+       .hhh{
+       	margin:-52px 85px 20px 85px;
+       }
+       .bottom-1{
+       	width: 100%;
+       	height:148px;
+       	background-color: #2e2e2e;
+        margin:0 auto 90px;
+       }
+       .b-1{
+       	position: relative;
+       	left:-900px;
+       }
+       .b-1 ul {
+       	width:1200px;
+       	list-style-type: none;
+       }
+       .b-1>ul>li{
+       	color:#fff;
+       	font-size: 14px;
+       	line-height: 35px;
+       }
+       .b-1>ul>li>a{
+       	color:#fff;
+       	font-size:16px;
+       	text-decoration: none;
+       }
+       .b-2{
+       	position:relative;
+       	left:230px;
+       	top:-140px;
+       }
+       .b-2>ul{
+       	list-style-type: none;
+       }
+       .b-2>ul>li{
+       	color:#fff;
+       	font-size: 14px;
+       	line-height: 35px;
+       }
+        .b-2>ul>li>a{
+       	color:#fff;
+       	font-size:16px;
+       	text-decoration: none;
+       }
+       .b-3{
+       	position:relative;
+       	left:500px;
+       	top:-280px;
+       }
+       .b-3>ul{
+       	list-style-type: none;
+       }
+       .b-3>ul>li{
+       	color:#fff;
+       	font-size: 14px;
+       	line-height: 35px;
+       }
+        .b-3>ul>li>a{
+       	color:#fff;
+       	font-size:16px;
+       	text-decoration: none;
+       }
+       #b-4{
+       	position: relative;
+       	left:-350px;
+       	top:-420px;
+       }
+       #b-4 a{
+       	color:#fff;
+       	font-size:16px;
+       	text-decoration: none;
+       }
+       #b-4 p{
+       	color:#fff;
+       	font-size: 14px;
+       	line-height: 35px;
+       }
+       #b-5{
+       	position:relative;
+       	top:-560px;
+       	left: -100px;
+       }
+       #b-5 a{
+       	color:#fff;
+       	font-size:16px;
+       	text-decoration: none;
+       }
+       #b-5 p{
+       	color:#fff;
+       	font-size: 14px;
+       	line-height: 35px;
+       }
+       .bottom-2{
+       	float: right;
+       }
+       .bottom{
+       	height: 1px;
+       	width: 100%;
+       	position: relative;
+       	top:-260px;
+       	background-color:rgb(69 69 69);
+       }
+       .bottom-3{
+       	width: 100%;
+       	background-color: rgb(46 46 46);
+       }
+       .bottom-33{
+       	width:650px;
+       	height:90px;
+       	margin:30px auto 0;
+       	line-height: 34px;
+       	text-align:center;
+       	background-color: rgb(46 46 46);
+       }
+       .bottom-33 p{
+       	color:#9e9e9e;
+       	font-size:14px;
+       }
+       .bottom-33 p a{
+       	color:#9e9e9e;
+       	font-size:14px;
+       	margin-right: 5px;
+       	margin-left: 4px;
+       }
+	</style>
+</head>
+<body>
+<!--最上-->
+   <div class="top">
+      <div class="top-1">
+         <p>我的收藏   E族之家手机版  <img src="imgs/qq.png" alt="QQ"/> 328203328</p>
+      </div>
+      <div class="top-2">
+         <p>扫描加入     欢迎来到E族之家，请登录|注册</p>
+      </div>
+   </div>
+<!--第二扒-->
+   <div class="leader">
+      <div class="leader-1">
+         <span class="leader-11">
+            <img src="imgs/E族之家.png" alt="E族之家"/>
+        </span>
+         <div class="leader-12">
+          <form id="leader-112">
+             <input id="inp1"type="text" name="inp1" value="请输入关键词！"/>
+             <input id="inp2"type="submit" name="inp2" value="搜索"/>
+          </form>
+         </div>
+         <span class="leader-13">
+            <ul>
+               <li><a href="#"><img src="imgs/购车.png" alt="购物车"/><img src="imgs/购车2.png" alt="购买"/></a></li>
+            </ul>
+         </span>
+      </div>
+      <div class="leader-2">
+         <ul>
+            <li><a class="a"href="#">首页</a></li>
+            <li><a class="a"href="#">E族之家</a></li>
+            <li><a class="a"href="#">E族服务</a></li>
+            <li><a class="a"href="#">E族爱心</a></li>
+         </ul>
+      </div>
+   </div>
+<!--主体-->
+   <div class="rap">
+      <p>当前位置：E族爱心>食品</p>
+   </div>
+   <div class="all">
+   <div class="left">
+   <div class="left-1">
+      <img src="imgs/分类.png"alt="分类"/>
+      <p>全部分类</p>
+   </div>
+   <div class="left-2">
+      <p id="pp">>食品</p></br>
+      <p>>生活用品</p>
+   </div>
+   </div>
+   <div class="right">
+      <ul>
+         <li><img id="x"src="imgs/辣椒.png" alt="辣椒"/>
+            <p class="xx">精品辣椒100克</p>
+         	<p class="xxx">￥90.00</p>
+         </li>
+         <li><img id="y"src="imgs/百香果.png" alt="百香果"/>
+            <p class="xx">特级百香果3斤</p>
+            <p class="xxx">￥90.00</p>
+         </li>
+         <li><img id="z"src="imgs/啤酒.png" alt="啤酒"/>
+            <p class="zz">万威啤酒500ml</p>
+         	<p class="zzz">￥90.00</p>
+         </li>
+         <li><img id="h"src="imgs/啤酒2.png" alt="啤酒2"/>
+            <p class="hh">万威啤酒500ml</p></br>
+            <p class="hhh">￥90.00</p>
+         </li>
+         <li><img id="x"src="imgs/辣椒.png" alt="辣椒"/>
+            <p class="xx">精品辣椒100克</p>
+         	<p class="xxx">￥90.00</p>
+         </li>
+         <li><img id="y"src="imgs/百香果.png" alt="百香果"/>
+            <p class="xx">特级百香果3斤</p>
+            <p class="xxx">￥90.00</p>
+         </li>
+         <li><img id="z" src="imgs/啤酒.png" alt="啤酒"/>
+            <p class="zz">万威啤酒500ml</p>
+         	<p class="zzz">￥90.00</p>
+         </li>
+         <li><img id="h"src="imgs/啤酒2.png" alt="啤酒2"/>
+            <p class="hh">万威啤酒500ml</p></br>
+            <p class="hhh">￥90.00</p>
+         </li>  
+      </ul>
+   </div>
+   </div>
+<!--最下-->
+   <div class="bottom-1">
+      <div class="b-1">
+         <ul>
+         <li><a href="#">新手上路</a></li>
+         <li>售后流程</li>
+         <li>购物流程</li>
+         <li>订购方式</li></ul>
+      <div class="b-2">
+         <ul>
+         <li><a href="#">配送方式</a></li>
+         <li>货到付款区域</li>
+         <li>配送支付查询</li>
+         <li>支付方式说明</li>
+         </ul></div>
+      <div class="b-3">
+         <ul>
+         <li><a href="#">购物指南</a></li>
+         <li>常见问题</li>
+         <li>订购流程</li>
+         <li>注册新会员</li>
+         </ul></div>
+   </div>
+   <div class="bottom-2">
+      <div id="b-4">
+         <p><a href="#">售后服务</a></p>
+         <p>退换货原则 </p>
+         <p id="b-44">售后服务保证</p>
+         <p id="b-444">退货流程</p>
+      </div>
+      <div id="b-5">
+         <p><a>关于我们</a></p>
+         <p>网站故障报告</p>
+         <p>联系我们</p>
+         <p>投诉与建议</p>
+      </div>
+   </div>
+   <div class="bottom"></div>
+   <div class="bottom-3">
+      <div class="bottom-33">
+      <p>
+      	<a href="#">E族生活</a>|
+      	<a href="#">居家维修保养</a>|
+        <a href="#">住宿优惠信息</a>|
+        <a href="#">出行接送</a>
+        <a href="#">E族活动</a>|
+        <a href="#">E族爱心</a>|
+        <a href="#">积分商城</a>
+      </p>
+      </div>
+   </div>
+</body>
+</html>
